@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* min-height: 100vh; */
+  background-color: purple;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+header {
+  background-color: orange;
+}
+
+main {
+  background-color: teal;
+  /* overflow: scroll; */
+}
+
+footer {
+  background-color: antiquewhite;
+  position: sticky;
+  bottom: 0;
+  /* width: 100%; */
+}
